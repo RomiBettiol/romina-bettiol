@@ -8,7 +8,6 @@ export default function NavBar(){
     return(
 
         <>
-            <header>
                         <ReactBootstrap.Navbar bg="light" expand="lg">
                 <ReactBootstrap.Container>
                     <ReactBootstrap.Navbar.Brand href="#home">PIRUME</ReactBootstrap.Navbar.Brand>
@@ -24,8 +23,6 @@ export default function NavBar(){
                     </ReactBootstrap.Navbar.Collapse>
                 </ReactBootstrap.Container>
                 </ReactBootstrap.Navbar>
-
-            </header>
         </>
     );
 
