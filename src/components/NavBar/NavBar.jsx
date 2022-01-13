@@ -1,6 +1,4 @@
 import React from "react";
-//import carrito from "../../imagenes/carrito.png"
-//import "../../estilos/imagen.css";
 import CartWidget from "./CartWidget";
 import * as ReactBootstrap from "react-bootstrap";
 

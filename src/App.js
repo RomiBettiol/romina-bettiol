@@ -1,12 +1,13 @@
 import './App.css';
-import CartWidget from './components/NavBar/CartWidget';
 import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
 
     <>
       <NavBar />
+      <ItemListContainer greeting = "Bienvenido a la página" />
     </>
 
   );
