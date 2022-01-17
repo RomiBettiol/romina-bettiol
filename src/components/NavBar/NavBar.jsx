@@ -25,7 +25,3 @@ export default function NavBar(){
     );
 
 }
-
-function ItemListContainer (){
-
-}
