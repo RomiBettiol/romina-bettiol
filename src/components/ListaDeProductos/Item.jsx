@@ -1,15 +1,9 @@
 import React from "react";
 import MasMenos from "./MasMenos";
-import "./Producto.css";
+import "./Item.css";
 
-export default function Producto ({item}){
-
-    function onAdd(){
-        //alert(item.nombre + ' ' + item.stock);
-
-        
-    }
-
+export default function Item ({item}){
+    
     return(
         <>
             <div className="contenedorProductos">
@@ -17,7 +11,6 @@ export default function Producto ({item}){
                 <p className="parrafoProducto">{item.codigo}</p>
                 <p className="parrafoProducto">{item.stock}</p> 
                 <p className="parrafoPrecio">{item.precio}</p>
-                <button className="carrito" onClick={()=>onAdd()}>AGREGAR AL CARRITO</button>
                 <div className="contador">
                     <MasMenos tope={item.stock} />
                 </div>

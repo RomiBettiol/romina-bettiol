@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState, useEffect} from "react";
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ListaDeProductos from './components/ListaDeProductos/ListaDeProductos';
+import TestPromesas from './components/TestPromesas/TestPromesas';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
     <>
       <NavBar />
       <ItemListContainer greeting = "Bienvenido a la página" />
-      <ListaDeProductos />
+      <TestPromesas />
     </>
 
   );

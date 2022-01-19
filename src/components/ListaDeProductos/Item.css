@@ -35,11 +35,16 @@
     color: #937672;
     border-radius: 5px;
     border: none;
-    height: 40px;
+    height: 50px;
+    width: 120px;
 }
 
 .contador{
-    width: 90px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .signo{
@@ -52,6 +57,7 @@
     display: flex;
     flex-direction: row;
     width: 80%;
+    margin-top: 10%;
 }
 
 .cant{
