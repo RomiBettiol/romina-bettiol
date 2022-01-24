@@ -1,16 +1,16 @@
 import './App.css';
 import React, {useState, useEffect} from "react";
 import NavBar from './components/NavBar/NavBar';
+import ParteInicial from './components/ParteInicial/ParteInicial';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import TestPromesas from './components/TestPromesas/TestPromesas';
 
 function App() {
   return (
 
     <>
       <NavBar />
-      <ItemListContainer greeting = "Bienvenido a la página" />
-      <TestPromesas />
+      <ParteInicial greeting = "Bienvenido a la página" />
+      <ItemListContainer />
     </>
 
   );
